@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1B3809B21CA9F491002C324E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1B3809B11CA9F491002C324E /* main.cpp */; };
+		1B3809BB1CA9F4AD002C324E /* treeDriver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1B3809BA1CA9F4AD002C324E /* treeDriver.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,9 @@
 
 /* Begin PBXFileReference section */
 		1B3809AE1CA9F491002C324E /* tree traversal */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "tree traversal"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1B3809B11CA9F491002C324E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		1B3809B81CA9F4AD002C324E /* traversal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = traversal.h; path = "../../../CISP 2/traversal.h"; sourceTree = "<group>"; };
+		1B3809B91CA9F4AD002C324E /* tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tree.h; path = "../../../CISP 2/tree.h"; sourceTree = "<group>"; };
+		1B3809BA1CA9F4AD002C324E /* treeDriver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = treeDriver.cpp; path = "../../../CISP 2/treeDriver.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +59,9 @@
 		1B3809B01CA9F491002C324E /* tree traversal */ = {
 			isa = PBXGroup;
 			children = (
-				1B3809B11CA9F491002C324E /* main.cpp */,
+				1B3809BA1CA9F4AD002C324E /* treeDriver.cpp */,
+				1B3809B81CA9F4AD002C324E /* traversal.h */,
+				1B3809B91CA9F4AD002C324E /* tree.h */,
 			);
 			path = "tree traversal";
 			sourceTree = "<group>";
@@ -118,7 +122,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B3809B21CA9F491002C324E /* main.cpp in Sources */,
+				1B3809BB1CA9F4AD002C324E /* treeDriver.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +241,7 @@
 				1B3809B71CA9F491002C324E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
